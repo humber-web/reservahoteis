@@ -1,17 +1,30 @@
 
-
-
 ```markdown
 # Hotel Reservations API
 
-This project is a RESTful API designed to manage hotel reservations. It provides endpoints for managing hotels, clients, and reservations, allowing you to perform CRUD operations on these entities. The API is built using Spring Boot and follows a layered architecture to keep the code clean and maintainable.
+This project is a RESTful API designed to manage hotel reservations. It provides endpoints for managing hotels, clients, and reservations, allowing you to perform CRUD operations on these entities. Built with Spring Boot, the API follows a layered architecture to ensure clean, maintainable code.
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Endpoints Overview](#endpoints-overview)
+  - [Hotels](#hotels)
+  - [Clients](#clients)
+  - [Reservations](#reservations)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Running Tests](#running-tests)
+- [Author]Humberto Rosabal
+- [License](#license)
 
 ## Features
 
 - **Hotel Management:** Create, read, update, and delete hotels.
 - **Client Management:** Manage client information with full CRUD operations.
-- **Reservation Management:** Create and manage reservations linking hotels with clients along with check-in and check-out dates.
-- **API Documentation:** The API is documented using an OpenAPI specification, which can be imported into Postman for interactive documentation.
+- **Reservation Management:** Create and manage reservations linking hotels with clients, including check-in and check-out dates.
+- **API Documentation:** Documented with an OpenAPI specification that can be imported into Postman for interactive exploration.
 
 ## Technologies Used
 
@@ -108,9 +121,9 @@ This project is a RESTful API designed to manage hotel reservations. It provides
 
 ### Prerequisites
 
-- Java 17 or later
-- Maven
-- PostgreSQL (Ensure it is installed and running)
+- **Java 17** or later
+- **Maven**
+- **PostgreSQL** (Ensure it is installed and running)
 
 ### Installation
 
@@ -132,12 +145,12 @@ This project is a RESTful API designed to manage hotel reservations. It provides
    The API will be accessible at `http://localhost:8080`.
 
 4. **API Documentation:**
-   - **Postman:** Import the provided OpenAPI specification (ensure it uses an OpenAPI 3.0.x version) into Postman for interactive documentation.
+   - **Postman:** Import the provided OpenAPI specification (ensure it uses an OpenAPI 3.0.x version) into Postman.
    - **Swagger UI (Optional):** If configured, access Swagger UI at `http://localhost:8080/swagger-ui/index.html`.
 
 ## Running Tests
 
-Run the test suite using:
+Run the test suite with:
 ```bash
 mvn test
 ```
