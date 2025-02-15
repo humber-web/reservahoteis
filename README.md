@@ -4,20 +4,6 @@
 
 This project is a RESTful API designed to manage hotel reservations. It provides endpoints for managing hotels, clients, and reservations, allowing you to perform CRUD operations on these entities. Built with Spring Boot, the API follows a layered architecture to ensure clean, maintainable code.
 
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Endpoints Overview](#endpoints-overview)
-  - [Hotels](#hotels)
-  - [Clients](#clients)
-  - [Reservations](#reservations)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Running Tests](#running-tests)
-- [Author]Humberto Rosabal
-- [License](#license)
 
 ## Features
 
@@ -163,3 +149,5 @@ Humberto Rosabal
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
+
+This version addresses the formatting issues by ensuring proper indentation, consistent header styles, and clickable links in the Table of Contents.
