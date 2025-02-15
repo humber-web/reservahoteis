@@ -1,4 +1,3 @@
-Below is an example of a README file that you can include in your repository. You can adjust or expand the content as needed:
 
 ---
 
