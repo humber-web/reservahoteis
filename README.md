@@ -1,5 +1,5 @@
 
-```markdown
+
 # Hotel Reservations API
 
 This project is a RESTful API designed to manage hotel reservations. It provides endpoints for managing hotels, clients, and reservations, allowing you to perform CRUD operations on these entities. Built with Spring Boot, the API follows a layered architecture to ensure clean, maintainable code.
@@ -36,7 +36,7 @@ This project is a RESTful API designed to manage hotel reservations. It provides
     "localizacao": "Praia Central",
     "capacidade": 200
   }
-  ```
+  
 
 - **GET** `/api/hotels/{id}`  
   Retrieves a hotel by its ID.
@@ -134,12 +134,6 @@ This project is a RESTful API designed to manage hotel reservations. It provides
    - **Postman:** Import the provided OpenAPI specification (ensure it uses an OpenAPI 3.0.x version) into Postman.
    - **Swagger UI (Optional):** If configured, access Swagger UI at `http://localhost:8080/swagger-ui/index.html`.
 
-## Running Tests
-
-Run the test suite with:
-```bash
-mvn test
-```
 
 ## Author
 
