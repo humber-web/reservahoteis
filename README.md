@@ -1,5 +1,5 @@
 
----
+
 
 ```markdown
 # Hotel Reservations API
